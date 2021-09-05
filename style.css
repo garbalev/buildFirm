@@ -1,0 +1,52 @@
+:root {
+  font-size: 10px;
+}
+
+body {
+  margin: 0 0;
+}
+
+.firstPage {
+  background-image: url(./Images/FPbackground.png);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.firstPageBlocks {
+  width: max-content;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.firstPageLogo {
+  width: 10rem;
+  margin-top: 2rem;
+}
+
+.firstPageInfo h1 {
+  font-size: 6rem;
+  letter-spacing: 0.571rem;
+  color: #fff;
+}
+
+.firstPageInfo p {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.firstPageScroll {
+  margin-bottom: 4rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.37rem;
+  color: #fff;
+}
+
+.firstPageBackgroundPhoto {
+  width: 100%;
+}
