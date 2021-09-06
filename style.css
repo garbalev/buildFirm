@@ -2,8 +2,11 @@
   font-size: 10px;
 }
 
-body {
-  margin: 0 0;
+body,
+h1,
+h3,
+p {
+  margin: 0;
 }
 
 .firstPage {
@@ -25,10 +28,11 @@ body {
 
 .firstPageLogo {
   width: 10rem;
-  margin-top: 2rem;
 }
 
 .firstPageInfo h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 6rem;
   letter-spacing: 0.571rem;
   color: #fff;
@@ -36,17 +40,195 @@ body {
 
 .firstPageInfo p {
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.6rem;
+  font-weight: 600;
   color: #fff;
 }
 
 .firstPageScroll {
   margin-bottom: 4rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.1rem;
+  font-weight: 600;
   letter-spacing: 0.37rem;
   color: #fff;
 }
 
 .firstPageBackgroundPhoto {
   width: 100%;
+}
+
+.secondPageHeader {
+  width: 100%;
+  height: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondPageHeaderLogo {
+  width: 8rem;
+  height: 4rem;
+  margin-left: 25rem;
+}
+
+.secondPageHeaderNavBar {
+  margin-right: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.secondPageHeaderNavBar a {
+  text-decoration: none;
+  color: #48555b;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.109rem;
+}
+
+.secondPageStory {
+  width: 65%;
+  /* background-color: cyan; */
+  margin: 5.8rem auto 11.8rem;
+}
+
+.secondPageStoryHead {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.231rem;
+  color: #48555b;
+}
+
+.secondPageStoryLine {
+  width: 5rem;
+  height: 0.2rem;
+  background-color: #00a4e5;
+  margin: 1rem auto 0;
+}
+
+.secondPageStoryInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.secondPageStoryInfoText {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.secondPageStoryInfoBlocks {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 3rem;
+}
+
+.secondPageStoryInfoBlocks img {
+  width: 30%;
+}
+
+.secondPageStoryInfoTextFounded {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #48555b;
+  letter-spacing: 0.01875rem;
+}
+
+.secondPageStoryInfoTextLorem {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #48555b;
+  letter-spacing: 0.01875rem;
+  margin-top: 3rem;
+}
+
+.thirdPage {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.thirdPageHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  height: 4rem;
+}
+
+.thirdPageHeaderLeft {
+  width: 24%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thirdPageHeaderLeftText {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #48555b;
+  letter-spacing: 0.2306rem;
+}
+
+.thirdPageHeaderLeftLine {
+  width: 5rem;
+  height: 0.2rem;
+  background-color: #00a4e5;
+}
+
+.thirdPageHeaderRight {
+  width: 62%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.thirdPageHeaderRightLorem {
+  width: 69%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #48555b;
+  letter-spacing: 0.02rem;
+}
+
+.thirdPageHeaderRight a {
+  height: 100%;
+  text-decoration: none;
+}
+
+.thirdPageHeaderRightButton {
+  width: 15rem;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.05rem;
+  background-color: #00a4e5;
 }
