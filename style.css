@@ -95,6 +95,10 @@ p {
   letter-spacing: 0.109rem;
 }
 
+.secondPageHeaderNavBar a:hover {
+  color: #00a4e5;
+}
+
 .secondPageStory {
   width: 65%;
   /* background-color: cyan; */
@@ -139,8 +143,48 @@ p {
   margin-top: 3rem;
 }
 
-.secondPageStoryInfoBlocks img {
+.secondPageStoryInfoBlocks a {
   width: 30%;
+  transition: 1s;
+}
+
+.secondPageStoryInfoBlocks a:hover {
+  opacity: 0.7;
+  transform: scaleY(1.2) scaleX(1.1);
+}
+
+.secondPageStoryInfoBlocks a:hover h2 {
+  top: 20%;
+  
+}
+
+.secondPageStoryInfoBlocks a:hover img {
+  filter:brightness(0.5);
+  filter:drop-shadow(10px 10px 10px black);
+}
+
+.secondPageStoryInfoBlocks div {
+  position: relative;
+  width: 100%;
+}
+
+.secondPageStoryInfoBlocks h2 {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.01875rem;
+  transition: 1s;
+  
+}
+
+.secondPageStoryInfoBlocks img {
+  width: 100%;
+  transition: 1.2s;
 }
 
 .secondPageStoryInfoTextFounded {
@@ -233,6 +277,18 @@ p {
   color: #ffffff;
   letter-spacing: 0.05rem;
   background-color: #00a4e5;
+}
+
+.thirdPageHeaderRightButton:hover,
+.forthPageContent div:hover,
+.fivthPageSubscribe div:hover {
+  background-color: #5dc4ec;
+}
+
+.thirdPageHeaderRightButton:active,
+.forthPageContent div:active,
+.fivthPageSubscribe div:active {
+  box-shadow: 0px 0px 4px 2px rgba(95, 83, 87, 0.89);
 }
 
 .thirdPageBlocks {
@@ -415,6 +471,10 @@ p {
   color: #fff;
   letter-spacing: 0.085rem;
   text-decoration: none;
+}
+
+.sixthPageLinks a:hover {
+  color: rgb(150, 139, 139);
 }
 
 .sixthPageLinksHead {
