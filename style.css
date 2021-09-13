@@ -1,5 +1,6 @@
 :root {
   font-size: 10px;
+  cursor: default;
 }
 
 body,
@@ -46,6 +47,34 @@ p {
   font-size: 1.6rem;
   font-weight: 600;
   color: #fff;
+}
+
+.firstPageScrollSvg {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstPageBlocks svg {
+  width: 5rem;
+  fill: #48555b;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  animation: scroll 1.5s infinite;
+  cursor: pointer;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(3rem);
+    opacity: 0.95;
+    fill: #fff;
+  }
 }
 
 .firstPageScroll {
@@ -155,12 +184,11 @@ p {
 
 .secondPageStoryInfoBlocks a:hover h2 {
   top: 20%;
-  
 }
 
 .secondPageStoryInfoBlocks a:hover img {
-  filter:brightness(0.5);
-  filter:drop-shadow(10px 10px 10px black);
+  filter: brightness(0.5);
+  filter: drop-shadow(10px 10px 10px black);
 }
 
 .secondPageStoryInfoBlocks div {
@@ -179,7 +207,6 @@ p {
   color: #fff;
   letter-spacing: 0.01875rem;
   transition: 1s;
-  
 }
 
 .secondPageStoryInfoBlocks img {

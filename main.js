@@ -1,8 +1,11 @@
 var firstPageScroll = document.querySelector('.firstPageScroll'),
+    firstPageScrollSvg = document.querySelector('.firstPageScrollSvg svg'),
     sixthPage = document.querySelector('.sixthPage'),
     allHrefs = document.querySelectorAll('.secondPageHeaderNavBar a, .sixthPageLinksFirst a')
 
 firstPageScroll.addEventListener('click', scrollDown);
+firstPageScrollSvg.addEventListener('click', scrollDown);
+
 
 
 
